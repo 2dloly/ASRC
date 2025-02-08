@@ -1,5 +1,5 @@
 ## LAB 3: Asigurarea accesului administrativ folosind AAA și RADIUS
----
+
 ### Obiective
 
 1. **Partea 1**: Configurare de bază a dispozitivului de rețea  
@@ -269,12 +269,5 @@ R1(config-line)# exit
 4. **Verificați** pe serverul RADIUS logul de acces.  
 
 ---
-
-## Verificări finale
-
-1. **`show running-config`** – asigurați-vă că AAA este configurat conform așteptărilor.  
-2. **`show aaa servers`** (sau `show radius statistics`) – verificați starea serverului RADIUS.  
-3. **Logați-vă** cu user local și user RADIUS, pentru a confirma fallback-ul local și autentificarea RADIUS.  
-4. **Testați** și modul `enable`: routerul poate cere din nou validare RADIUS sau folosește parola locală de `enable`, în funcție de `aaa authentication enable default ...`.  
 
 ---
