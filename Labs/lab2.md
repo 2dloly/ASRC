@@ -1,7 +1,5 @@
 ## Laboratorul 2: Securizarea routerului pentru acces administrativ
 
----
-
 ## Cuprins
 
 1. [Cerințe generale și topologie](#cerințe-generale-și-topologie)  
@@ -334,31 +332,4 @@ R1# auto secure
 3. **Analizați** vulnerabilitățile și aplicați recomandările.  
 4. **Confirmați** că accesul la router rămâne funcțional (SSH/Telnet, după cum e cazul).
 
----
-
-## Verificări finale
-
-1. **Verificați** că puteți face SSH pe router.  
-2. **Verificați** bannerele la conectare.  
-3. **Verificați** că parolele nu apar în clar (`show run`).  
-4. **Verificați** logurile Syslog pe server (dacă ați făcut evenimente).  
-5. **Verificați** orarul curent (`show clock`) pe fiecare router – să fie sincronizat NTP.  
-6. **SNMP**: folosiți un manager extern și asigurați-vă că routerul răspunde la GET.
-
----
-
-## Încheiere
-
-- **Salvați** configurația pe fiecare router:
-
-  ```bash
-  R1# copy running-config startup-config
-  ```
-
-- **Documentați** eventualele observații și particularități.  
-- **Fișierele de configurare finală** pot fi atașate raportului/laboratorului pentru evaluare.
-
----
-
-> Acest laborator acoperă configurări cheie pentru securizarea accesului administrativ pe router, implicând parole, criptare, SSH, bannere de avertizare, protecție cu SNMP, Syslog și NTP, precum și modul de automatizare a securității prin AutoSecure și instrumente SDM. Adaptați valorile (IP-uri, parole, nume de domenii) la mediul vostru.  
 ---
