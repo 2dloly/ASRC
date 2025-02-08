@@ -267,7 +267,4 @@ R1(config-line)# exit
 2. **Introduceți** userul definit pe serverul RADIUS (ex. `radiusUser` / `pass456`).  
 3. **Observați** că routerul consultă serverul RADIUS pentru validare.  
 4. **Verificați** pe serverul RADIUS logul de acces.  
-
----
-
 ---
